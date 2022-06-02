@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:"open sans"
+}
+html{
+    background-image:url(./imagens/fundo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main{
+  background-image: url(./imagens/fundo\ 2.png);
+  background-size:60%;
+  width:100%;
+  height:200vh;
+  background-repeat: no-repeat;
+  margin-top:-8vw;
+}
+.vermelha{
+    position:absolute;
+    left:16vw;
+    bottom:1vh;
+    top:40vw;
+    width:vw;
+    height:70vh;
+
+}
+.contain{
+    display:flex;
+    justify-content:end;
+    
+}
+.sobre{
+   margin-top:15vw;
+   margin-right:3vw;
+   width:50vw; 
+}
+.linha{
+    display:flex;
+    justify-content:center;
+}
+.reta{
+    width:79.5vw;
+    margin-top:9vw;
+    margin-left:13vw;
+}
+.bonecovermelho{
+    width:80vw;
+    margin-left:15vw;
+    margin-top:2vw;
+}
+.estrutura{
+    position:absolute;
+    top:90vw;
+    left:45vw;
+    text-transform:uppercase;
+}
+.joguinho{
+    font-weight: 900;
+    font-size: 3.3vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+}
+span{
+    font-weight: 900;
+    margin-left:1vw;
+}
+
+h2{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 3.3vw;
+    font-weight: 600;
+}
+li{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 1vw;
+    font-size:1.5vw;
+    
+}
+li:hover{
+    cursor:pointer;
+    background-color:#FF6347;
+    color:white ;
+}
+
+.fundo{
+    background-color:#2D2D2D;
+    background-size: cover;
+    height:296vh;
+    margin-top:-7vw;
+}
+h3{
+    padding:13vw 13vw 4vw 13vw ;
+    margin-left:4vw;
+    color:white;
+    font-size:3vw;
+
+}
+
+
+@media(max-width: 570px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+     main{
+        background-image: url(./imagens/fundo\ 2.png);
+        background-size:60%;
+        width:100%;
+        height:300vh;
+        background-repeat: no-repeat;
+        margin-top:-105vw;
+      }
+      .vermelha{
+          position:absolute;
+          left:35vw;
+          bottom:1vh;   
+          top:50vw;
+  
+          height:60vw;
+      }
+      .contain{
+        display:flex;
+        justify-content:end;
+        
+    }
+    .sobre{
+       margin-top:100vw;
+       margin-right:3vw;
+       width:0vw; 
+    }
+    .linha{
+        display:flex;
+        justify-content:center;
+    }
+    .reta{
+        width:79.5vw;
+        margin-top:9vw;
+        margin-left:13vw;
+    }
+    .estrutura{
+        position:absolute;
+        top:250vw;
+        left:20vw;
+        text-transform:uppercase;
+        font-size:3vw;
+    }
+    .joguinho{
+        font-weight: 900;
+        font-size: 3.3vw;
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-end;
+    }
+    span{
+        font-weight: 900;
+        margin-left:1vw;
+    }
+    h2{
+        display:flex;
+        justify-content: flex-end;
+        font-size:4vw;
+        font-weight: 600;
+    }
+    li{
+        display:flex;
+        justify-content: flex-end;
+        margin-top: 1vw;
+        font-size:3vw;
+        
+    }
+    li:hover{
+        cursor:pointer;
+        background-color:#FF6347;
+        color:white ;
+    }
+    .mulher{
+     position: absolute;
+     width:30vw;
+     top:250vw;
+     left:70vw;
+    }
+    .bonecovermelho{
+        width:49vw;
+        height:65vw ;
+        margin-left:1vw;
+        margin-top:90vw;
+    }
+    .fundo{
+        background-color:#2D2D2D;
+        background-size: cover;
+        height: 268vh;
+        margin-top:-14vw;
+    }
+    h3{
+        padding:13vw 13vw 4vw 13vw ;
+        margin-left:20vw;
+        color:white;
+        font-size:6vw;
+    
+    }
+}
+
+
+
