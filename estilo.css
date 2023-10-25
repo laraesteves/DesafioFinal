@@ -56,7 +56,7 @@ main{
 .estrutura{
     position:absolute;
     top:90vw;
-    left:45vw;
+    left:65vw;
     text-transform:uppercase;
 }
 .joguinho{
@@ -95,6 +95,19 @@ li:hover{
     background-size: cover;
     height:296vh;
     margin-top:-7vw;
+}
+
+h3{
+    position:absolute;
+    height:296vh;
+    left: 25vw;
+    margin-top:-10vw; 
+}
+.containerpai{
+    position:absolute;
+    height:300vh;
+    left: 20vw;
+    margin-top:9vw;
 }
 h3{
     padding:13vw 13vw 4vw 13vw ;
